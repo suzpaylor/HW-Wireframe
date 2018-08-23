@@ -1,0 +1,108 @@
+
+/*This is far from perfect! I had to do so much trial and error to get it to look like the paper.  I know it's a bit sloppy*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: '#777';
+    background: rgb(95, 92, 92);
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+}
+
+/*I don't think I need this now
+.container {
+
+    overflow: hidden;
+}
+*/
+
+
+header {
+    background-color: #ebebeb;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 1.5em;
+    }
+
+nav {
+    background-color: #ebebeb;  
+    height: 20px;  
+    margin: 10px;
+    text-align: center;
+    padding: 1.5em;
+        }
+
+section {
+
+        background-color: #ebebeb;
+        width: 630px;
+        float: left;
+        text-align: center;
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+}
+ 
+article {
+    background: rgb(95, 92, 92);
+    height: 250px;
+    margin: 80px 10px 10px 10px;
+    display: float;
+    padding-top: 1em;
+}
+
+aside  {
+    background: #ebebeb;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-bottom: 10px;
+    }
+
+.floaters:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background: #ebebeb;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 1.5em;
+}
+    
+.threeHeadings {
+    background: #ebebeb;
+    padding: 10px;
+    margin: 40px 0px 10px 10px;
+    width: 570px;
+}
+
+h1, h2, h3 {
+    display: inline;
+}
+
+.paragraph {
+    background: #ebebeb;
+    margin: 10px;
+    padding: 1em;
+
+
+}
+
+.section {
+    padding-top: 1em;
+}
+
+.aside {
+    padding-top: 1em;
+}
